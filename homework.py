@@ -105,10 +105,7 @@ def is_word_in_text(word: str, text: str) -> bool:
         >>> False
 
     """
-    if word in text:
-        return True
-    else:
-        return False
+   return word in text
 
 
 def some_loop_exercise() -> list:
